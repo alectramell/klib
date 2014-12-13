@@ -6,7 +6,7 @@ import getpass
 os.system('clear')
 
 def actions(): 
-    jobs = raw_input('[Karmon v1.0]$ ')
+    jobs = raw_input('KARMON$ ')
 
     username = getpass.getuser()
     username = str(username)
@@ -14,10 +14,10 @@ def actions():
     os.system('clear')
 
     os.system(jobs)
+ 
+    actions()
 
 actions()
-
-os.system('clear')
 
 
 
