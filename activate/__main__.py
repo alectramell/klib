@@ -8,6 +8,9 @@ os.system('clear')
 def actions(): 
     jobs = raw_input('KARMON$ ')
 
+    if jobs == ('exit'):
+       exit()
+
     username = getpass.getuser()
     username = str(username)
 
@@ -15,6 +18,8 @@ def actions():
 
     os.system(jobs)
  
+    os.system('clear')
+
     actions()
 
 actions()
