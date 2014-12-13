@@ -14,6 +14,16 @@ def actions():
     if jobs == ('facebook'):
        os.system('sensible-browser --new-window="http://www.facebook.com"')
 
+    if jobs == ('ghost-terminal'):
+       os.system('clear')
+       os.system('cd ~ && gnome-terminal --title="GHOST" &')
+       os.system('clear')
+
+    if jobs == ('ghost'):
+       os.system('clear')
+       os.system('cd ~ && gnome-terminal --title="GHOST" &')
+       os.system('clear')
+
     if jobs == ('who are you?'):
        os.system('clear')
        print ('I am Karmon, you know that..')
@@ -147,6 +157,8 @@ def actions():
        os.system(addcode7)
        os.system('sensible-browser --new-window="~/Desktop/' + name + '/index.html"')
        os.system('clear')
+
+
 
 actions()
 
