@@ -6,17 +6,14 @@ import getpass
 os.system('clear')
 
 def actions(): 
-    jobs = raw_input('[GHOST]$')
+    jobs = raw_input('[Karmon v1.0]$ ')
 
     username = getpass.getuser()
     username = str(username)
 
     os.system('clear')
 
-    os.system('touch ~/Desktop/karmon.log')
-    log = str('echo ' + jobs + ' >> ~/Desktop/karmon.log')
-
-    os.system(log)
+    os.system(jobs)
 
 actions()
 
