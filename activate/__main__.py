@@ -11,6 +11,9 @@ def actions():
     if jobs == ('exit'):
        exit()
 
+    if jobs == ('hide'):
+       os.system('killall karmon')
+
     username = getpass.getuser()
     username = str(username)
 
