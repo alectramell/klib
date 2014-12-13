@@ -14,3 +14,5 @@ def actions():
        os.sysytem('clear')
        print "I'm sorry, what?"
        os.system('sleep 4 && python ~/klib/activate')
+
+actions()
