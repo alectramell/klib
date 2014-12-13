@@ -15,9 +15,9 @@ def actions():
        print ('Well, you better think of something..')
        os.system('sleep 4 && python ~/klib/activate')
 
-    else:
-       os.sysytem('clear')
-       print "I'm sorry, what?"
-       os.system('sleep 4 && python ~/klib/activate')
+    if jobs == ('exit'):
+       os.system('clear')
+       print ('Ok, let me know if you need anything..')
+       os.system('sleep 4')
 
 actions()
