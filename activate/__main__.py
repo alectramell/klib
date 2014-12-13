@@ -20,4 +20,8 @@ def actions():
        print ('Ok, let me know if you need anything..')
        os.system('sleep 4')
 
+    if jobs == ('help'):
+       os.system('clear')
+       os.system('sensible-browser ~/klib/activate/lib')
+
 actions()
